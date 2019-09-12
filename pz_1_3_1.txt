@@ -1,0 +1,6 @@
+git clone ...
+git add .
+git commit -m "First commit"
+git add .
+git commit -m "v2"
+git push

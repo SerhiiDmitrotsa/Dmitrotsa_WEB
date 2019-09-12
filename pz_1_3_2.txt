@@ -1,6 +1,8 @@
-git clone ...
+git branch pz_1_3_1
+git chekout pz_1_3_1
 git add .
-git commit -m "First commit"
-git add .
-git commit -m "v2"
+git commit -m "..."
+git chekout master
+gir merge pz_1_3_1
+git branch -D pz_1_3_1
 git push
