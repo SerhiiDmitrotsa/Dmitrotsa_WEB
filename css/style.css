@@ -1,0 +1,117 @@
+*{margin: 0;
+padding: 0}
+.block1 {
+    display: block;
+    width: 100%;
+    height: 225px;
+    margin: 0;
+}
+.block2{
+    display: block;
+    width: 100%;
+    height: 550px;
+    clear: left;
+}
+.block3{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.img1{
+
+float: left;
+    width: 120px;
+    height: 170px;
+    margin: 10px 10px 10px 10px;
+}
+.imgt{
+    width: 320px;
+    height: 240px;
+}
+.zag2{
+    text-indent: 2em;
+    margin: 10px;
+    text-align: center;
+    color: #0A3A7D;
+    text-decoration: underline;
+}
+.zag2v2 {
+    text-indent: 2em;
+    margin: 10px;
+    text-align: right;
+    color: #0A3A7D;
+    text-decoration: underline;
+}
+hr {
+    display: block;
+    height: 4px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 0em 0;
+    padding: 0;
+    background: #0A3A7D;
+    size: 10px;
+}
+.zag1{
+text-align: right;
+}
+.zag{
+    text-indent: 2em;
+    margin: 10px;
+    .zag3{
+        text-align: left;
+        color: #0A3A7D;
+    }
+}
+.kursiv{
+    font-style: italic;
+}
+.gir{
+    font-weight: bold; ;
+}
+.zag9{
+    white-space: normal;
+    text-indent: 1.5em;
+}
+p{text-indent: 1.5em;
+    font: 12pt/10pt serif;
+}
+.tas{
+    text-indent: 2em;
+    margin: 19px;
+    text-align: left;
+
+}
+.body{
+    background: silver;
+}
+table {
+    border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey; /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+th {border: 1px solid grey;
+    color: #7d0000;}
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;
+
+}
+table {border: 3px solid grey;
+}
+table {width: 700px;
+    margin: auto;
+}
+th {width: 20%;}
+caption {
+    caption-side: top;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
